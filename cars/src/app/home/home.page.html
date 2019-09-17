@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Senac Rent a Car
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card claxss="welcome-card">
+    <img src="./assets/img/carro.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>Seu carro está aqui!</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+<ion-list lines="cards">
+  <ion-list-header>
+    <ion-label><b>Categorias</b></ion-label>
+  </ion-list-header>
+  <ion-item routerLink="/economico">
+    <ion-label>Econômico</ion-label>
+  </ion-item>
+  <ion-item routerLink="/compacto">
+    <ion-label>Compacto</ion-label>
+  </ion-item>
+  <ion-item routerLink="/minivan">
+    <ion-label>Minivan</ion-label>
+  </ion-item>
+  <ion-item routerLink="/utilitario">
+    <ion-label>Utilitário</ion-label>
+  </ion-item>
+  <ion-item routerLink="/premium">
+    <ion-label>Premium</ion-label>
+  </ion-item>
+  <ion-item routerLink="/luxo">
+    <ion-label>Luxo</ion-label>
+  </ion-item>
+</ion-list>
+</ion-content>
